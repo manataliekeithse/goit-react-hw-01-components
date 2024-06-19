@@ -1,7 +1,11 @@
 .statistics {
   width: 250px;
   margin: 0 auto;
-  padding: 50px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .title {
@@ -18,7 +22,8 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 0;
+  align-items: center;
+  border: 5px;
 }
 
 .item {
@@ -27,12 +32,17 @@
   margin: auto;
   margin-top: 0;
   text-align: center;
-
   width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
 }
 
 .label {
   padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 
 .percentage {
