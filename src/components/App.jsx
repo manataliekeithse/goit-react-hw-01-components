@@ -9,17 +9,20 @@ import { FriendList } from './FriendList/FriendList';
 
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from '../json/transactions.json';
-<json />;
+
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
         display: 'flex',
+        height: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
+        display: 'flex',
+        flexDirection: 'column',
       }}
     >
       <Profile
